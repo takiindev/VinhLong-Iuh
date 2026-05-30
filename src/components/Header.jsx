@@ -12,8 +12,8 @@ function Header() {
 
                 <nav className="hidden md:flex space-x-6">
                     <Link to="/" className="text-[#556445] hover:text-[#44543a]">Trang chủ</Link>
-                    <Link to="/about" className="text-[#556445] hover:text-[#44543a]">Bài viết</Link>
-                    <Link to="/contact" className="text-[#556445] hover:text-[#44543a]">Giới thiệu</Link>
+                    <Link to="/bai-viet" className="text-[#556445] hover:text-[#44543a]">Bài viết</Link>
+                    <Link to="/di-tich/den-tho-nguyen-dinh-chieu" className="text-[#556445] hover:text-[#44543a]">Giới thiệu</Link>
                 </nav>
 
                 <div className="flex items-center gap-3">
