@@ -62,7 +62,7 @@ function BlogList() {
                 className="group/cover relative block overflow-hidden bg-ivory aspect-[16/10]" 
                 aria-hidden="true" 
                 tabIndex={-1} 
-                href={`/bai-viet/${article.id}`}
+                href="#"
               >
                 <img 
                   alt={article.title} 
@@ -82,7 +82,7 @@ function BlogList() {
                 <h3 className="font-display font-medium leading-tight text-ink text-xl">
                   <a 
                     className="hover:text-[#44543a] transition-colors" 
-                    href={`/bai-viet/${article.id}`}
+                    href="#"
                   >
                     {article.title}
                   </a>
@@ -92,7 +92,7 @@ function BlogList() {
                 </p>
                 <a 
                   className="text-sm font-medium text-[#556445] hover:text-[#44543a] transition-colors inline-flex items-center gap-1 w-fit"
-                  href={`/bai-viet/${article.id}`}
+                  href="#"
                 >
                   Đọc tiếp <span aria-hidden="true">→</span>
                 </a>
